@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CLM Monitor - Privacy Policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<nav><a href="./">דף הבית</a><a href="privacy.html">מדיניות פרטיות</a><a href="terms.html">תנאי שימוש</a></nav>
+<h1>מדיניות פרטיות - CLM Monitor</h1>
+<p class="muted">בתוקף מ-16.10.2026</p>
+
+<h2>1. מי משתמש בכלי</h2>
+<p>CLM Monitor הוא כלי מחקר אישי. המשתמש היחיד שלו הוא מפעילו, והוא מתחבר לחשבון Google של המפעיל בלבד.</p>
+
+<h2>2. אילו נתוני Google הכלי ניגש אליהם</h2>
+<ul>
+<li><code>https://www.googleapis.com/auth/gmail.send</code>: שליחת מיילים בשם המפעיל, לכתובת הדוח שהמפעיל הגדיר. הכלי <b>אינו קורא, אינו מוחק ואינו סורק</b> דואר.</li>
+<li><code>https://www.googleapis.com/auth/drive.file</code>: יצירה ועדכון של גיליון הארכיון שהכלי עצמו יצר. הכלי <b>אינו ניגש</b> לקבצים אחרים ב-Google Drive.</li>
+</ul>
+
+<h2>3. כיצד המידע נשמר</h2>
+<ul>
+<li>אסימון ההרשאה (refresh token) נשמר כסוד מוצפן (GitHub Actions encrypted secret) בחשבון של המפעיל, ואינו נשמר בקוד.</li>
+<li>תוכן הדוחות והארכיון הוא מידע <b>ציבורי</b> (כותרות, תאריכים, קישורים וציטוטים קצרים), שנשמר במאגר פרטי של המפעיל ובגיליון של המפעיל.</li>
+<li>הכלי אינו אוסף מידע אישי על אנשים אחרים, אינו משתמש בעוגיות, ואינו כולל אנליטיקה.</li>
+</ul>
+
+<h2>4. שיתוף נתונים</h2>
+<p>נתוני Google של המשתמש <b>אינם נמכרים, אינם משותפים</b> עם צד שלישי, ואינם משמשים לפרסום או לאימון מודלים של בינה מלאכותית. השימוש במידע שמתקבל מממשקי Google עומד ב-<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, כולל דרישות ה-Limited Use.</p>
+
+<h2>5. ביטול ההרשאה ומחיקה</h2>
+<p>אפשר לבטל את גישת הכלי בכל עת דרך <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. לאחר הביטול הכלי לא יוכל לשלוח מיילים או לעדכן את הגיליון. אסימון ההרשאה נמחק מסודות GitHub לפי בקשת המפעיל.</p>
+
+<h2>6. יצירת קשר</h2>
+<p>לשאלות: כתובת התמיכה המוצגת במסך ההרשאה של Google עבור אפליקציה זו.</p>
+
+<div class="en">
+<h2>English - Privacy Policy</h2>
+<p><b>Who uses it.</b> CLM Monitor is a personal research tool. Its only user is its operator, and it connects only to the operator's own Google account.</p>
+<p><b>Google data accessed.</b> <code>gmail.send</code>: sends the daily report email to the address the operator configured; it does not read, delete or scan mail. <code>drive.file</code>: creates and updates only the archive spreadsheet created by the tool; it cannot access other Drive files.</p>
+<p><b>Storage.</b> The OAuth refresh token is stored as an encrypted GitHub Actions secret in the operator's account, never in source code. Reports contain public information only (headlines, dates, links, short quotes). No cookies, no analytics, no data about other people.</p>
+<p><b>Sharing.</b> Google user data is not sold, not shared with third parties, and not used for advertising or to train AI models. Use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+<p><b>Revocation.</b> Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+<p><b>Contact.</b> The support email shown on this app's Google consent screen.</p>
+</div>
+</main>
+</body>
+</html>

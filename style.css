@@ -1,0 +1,13 @@
+:root { --bg: #f7f8fa; --card: #ffffff; --ink: #1d2430; --muted: #5b6472; --line: #e3e6ea; --accent: #1f5fbf; }
+@media (prefers-color-scheme: dark) { :root { --bg: #14171c; --card: #1d2128; --ink: #e6e9ee; --muted: #9aa3b0; --line: #2d333c; --accent: #7aa7ff; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.7 Arial, "Segoe UI", Helvetica, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+nav { display: flex; gap: 16px; flex-wrap: wrap; font-size: 14px; margin-bottom: 20px; }
+a { color: var(--accent); }
+h1 { font-size: 26px; margin: 8px 0 4px; }
+h2 { font-size: 19px; margin: 28px 0 6px; border-bottom: 1px solid var(--line); padding-bottom: 4px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; margin: 16px 0; }
+.muted { color: var(--muted); font-size: 14px; }
+code { background: var(--card); border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; }
+.en { direction: ltr; text-align: left; }
